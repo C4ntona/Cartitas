@@ -1,0 +1,40 @@
+div{
+    background-color: #E6E6E6;
+    border: 2px solid black;
+    width: 170px;
+    height: 300px;
+    position: absolute;
+    left: 500px;
+    top: 200px;
+    transform: rotate(40deg);
+    color: red;
+    z-index: 5;
+}
+
+.c2{
+    z-index: 4;
+    color: black;
+    top: 200px;
+    left: 505px;
+    transform: rotate(25deg);
+}
+
+.c3{
+    z-index: 3;
+    color: black;
+    top: 200px;
+    left: 510px;
+    transform: rotate(15deg);
+}
+.c4{
+    z-index: 2;
+    top: 200px;
+    left: 515px;
+    transform: rotate(5deg);
+}
+.c5{
+    z-index: 1;
+    top: 200px;
+    left: 520px;
+    transform: rotate(-5deg);
+}
